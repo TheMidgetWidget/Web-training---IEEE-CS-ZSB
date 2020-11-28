@@ -1,0 +1,159 @@
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #252529;
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 35px;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    text-align: center;
+}
+
+button {
+    background-color: #c20202;
+    border: none;
+    color: white;
+    padding: 15px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.center-button {
+    text-align: center;
+}
+
+/* navbar */
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    margin-left: 20px;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: black;
+}
+
+#branding {
+    display: inline-block;
+    margin: 0;
+    padding: 0 20px;
+    font-size: 20px;
+    border-right: 1px solid #dddddd;
+}
+
+#branding a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+} 
+
+/* sections */
+.section {
+    width: 100%;
+}
+
+.section:nth-child(even) {
+    background-color: #fff;
+    color: #252529;
+}
+
+.section-body {
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.section h3 {
+    font-family: 'Nerko One', cursive;
+}
+
+/* landing */
+#landing {
+    height: 100vh;
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    text-align: center;
+}
+
+.landing-text {
+    padding-top: 40vh;
+    color: #fff;
+}
+
+/* music */
+.music-button:hover {
+    background-color: #cc0014;
+}
+
+/* movies */
+.movie-button {
+    background-color: #00328f;
+}
+
+.movie-button:hover {
+    background-color: #023ead;
+}
+
+/* links */
+#links {
+    overflow: hidden;
+}
+
+#links .link-section {
+    float: left;
+    width: 25%;
+}
+
+#links h4 {
+    display: inline-block;
+    border-bottom: 1px solid #dddddd;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+#links ul {
+    list-style: none;
+    padding: 0;
+}
+
+#links li a {
+    text-decoration: none;
+    color: #252529;
+    font-weight: 200;
+}
+
+/* copyright */
+#copyright p {
+    margin: 0;
+}

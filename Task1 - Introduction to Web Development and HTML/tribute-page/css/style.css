@@ -1,0 +1,41 @@
+html, body {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    width: 80%;
+    margin: auto;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-color: #dddddd;
+}
+
+.section {
+    padding: 20px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.section p {
+    text-align: justify;
+}
+
+li {
+    margin: 10px 0;
+    list-style: disc;
+}
+
+/* intro */
+
+.intro {
+    border-top: 1px solid #dddddd;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
