@@ -1,0 +1,16 @@
+html, body {
+    margin: 0;
+    height: 80%;
+    width: 100%;
+}
+
+#list {
+    height: 100%;
+    width: 100%;
+}
+
+.list-item {
+    width: 5px;
+    background-color: blue;
+    float: left;
+}
