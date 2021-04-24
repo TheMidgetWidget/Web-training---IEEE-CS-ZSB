@@ -10,6 +10,17 @@
 
 <body>
 
+    <div>
+        {% if user.is_authenticated %}
+          <span>Logged in as {{user.username}}</span>
+          <a class="nav-link" href="/logout">Logout</a>
+          <br><br><br>
+        {% else %}
+          <p><a class="nav-link" href="/login">Login</a> to view the page.</p>
+        {% endif %}
+    </div>
+
+    {% if user.is_authenticated %}
     <form method="POST" action="/">
         {%csrf_token%}
         {{form.name}}
@@ -27,7 +38,7 @@
         {% endif %}
     </div>
     {% endfor %}
-
+    {% endif %}
 </body>
 
 </html>
